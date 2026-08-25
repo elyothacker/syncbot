@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <name>SyncBot</name>
-    <description>Send files and DB backups to Telegram</description>
+    <description>Send files to Telegram</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -23,20 +23,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!-- PostgreSQL Driver -->
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-
-        <!-- MySQL Driver -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
         </dependency>
     </dependencies>
 
